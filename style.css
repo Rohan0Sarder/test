@@ -68,6 +68,8 @@
     .navber, ul .nav-links{
         flex-direction: column;
     }
-     
+     .banner-title{
+        margin: 0 30px;
+     }
     } 
   

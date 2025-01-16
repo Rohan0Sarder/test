@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+.banner-header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+  .nav-txt{
+    font-size: 40px;
+    font-weight: bold;
+    color: #131313;
+  }
+  .navber , .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1;
+    margin: 0 auto; */
+  }
+  .nav-item{
+    list-style: none;
+  }
+  .nav-links{
+    gap: 30px;
+  }
+  .nav-link{
+    text-decoration:none ;
+    font-size: 18px;
+    font-weight: medium;
+    color: #424242;
+  }
+  .navber , .banner{
+    margin: 0 80px;
+  }
+  .banner-sub{
+    text-align: center;
+  }
+  .banner-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #131313;
+  }
+  .banner-description{
+    font-size: 16px;
+    font-weight:300px;
+    color: #727272;
+  }
+  .banner-btn{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600px;
+    border: none;
+    border-radius: 8px;
+    margin: 25px;
+  }
+   .banner .banner-image{
+    width: 100%;
+
+  }
+  /* responsive media */
+  @media screen and (max-width:576px) {
+    .navber, ul .nav-links{
+        flex-direction: column;
+    }
+     
+    } 
+  
